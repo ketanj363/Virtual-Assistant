@@ -1,0 +1,21 @@
+--Virtal assistant-- 
+
+
+-- step 1 = make an speak function
+The SpeechSynthesisUtterance interface of the Web Speech API represents a speech request. It contains the content the speech service should read and information about how to read it (e.g. language, pitch and volume.)
+
+--step2 = make an wishme function 
+-- we have to use addeventlistner while doing load it will wish you by seeing the time in the system
+
+
+--step3 = use speechrecognition // for chrome  - window.webkitspeechrecognition
+-- exception --
+speech recognition only work on chrome , edge , opera 
+-- not capable in firefox;
+- in this we have used current index and 0th index which was storing in transcript that what we are saying in the mike that will store in transcript current index 
+--and we are storing that transcript in our context 
+by using  -- (content.innerText = transcript)--
+
+--step 4 = we have to take action on the commant that we are ging to assistant 
+-- by making function takecommand and pass transcript 
+
